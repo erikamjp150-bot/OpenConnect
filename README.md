@@ -14,6 +14,19 @@ To build a social platform that prioritizes human wellbeing over engagement metr
 - **Community-Governed**: Transparent moderation and governance
 - **Open Architecture**: Fully auditable code and ranking logic
 
+## Architecture
+
+```text
+User → Frontend (React) → Backend API (FastAPI)
+                            ↓
+                    PostgreSQL (Users, Posts)
+                    Neo4j (Social Graph)
+                    KeyDB (Cache)
+                    MinIO (Media)
+                    Matrix (Messaging)
+                    PyTorch (Ranking)
+```
+
 ## Tech Stack
 
 - **Backend**: FastAPI (Python), PostgreSQL, Neo4j
@@ -22,6 +35,14 @@ To build a social platform that prioritizes human wellbeing over engagement metr
 - **Frontend**: React (web) + React Native (mobile)
 - **Storage**: MinIO (S3-compatible)
 - **Cache**: KeyDB/Redis
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines, coding standards, and pull request expectations.
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
 
 ## Quick Start
 
