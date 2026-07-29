@@ -16,16 +16,19 @@ To build a social platform that prioritizes human wellbeing over engagement metr
 
 ## Architecture
 
-```text
-User → Frontend (React) → Backend API (FastAPI)
-                            ↓
-                    PostgreSQL (Users, Posts)
-                    Neo4j (Social Graph)
-                    KeyDB (Cache)
-                    MinIO (Media)
-                    Matrix (Messaging)
-                    PyTorch (Ranking)
+```mermaid
+flowchart LR
+    U[User] --> FE[Frontend / React]
+    FE --> API[Backend API / FastAPI]
+    API --> PG[(PostgreSQL)]
+    API --> N4J[(Neo4j)]
+    API --> KEY[(KeyDB)]
+    API --> MIN[(MinIO)]
+    API --> MX[Matrix]
+    API --> PT[PyTorch Ranking]
 ```
+
+For a deeper walkthrough of the platform components and data flow, see [docs/architecture.md](docs/architecture.md).
 
 ## Tech Stack
 
