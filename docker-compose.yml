@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: openconnect
+      POSTGRES_PASSWORD: openconnect
+      POSTGRES_DB: openconnect
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  neo4j:
+    image: neo4j:latest
+    environment:
+      NEO4J_AUTH: neo4j/password
+    ports:
+      - "7474:7474"  # HTTP
+      - "7687:7687"  # Bolt
+    volumes:
+      - neo4j_data:/data
+
+  keydb:
+    image: eqalpha/keydb:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - keydb_data:/data
+
+  minio:
+    image: minio/minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    volumes:
+      - minio_data:/data
+    command: server /data --console-address ":9001"
+
+  matrix:
+    image: matrixdotorg/synapse:latest
+    ports:
+      - "8008:8008"
+    volumes:
+      - matrix_data:/data
+    environment:
+      SYNAPSE_SERVER_NAME: openconnect.local
+      SYNAPSE_REPORT_STATS: "no"
+
+volumes:
+  postgres_data:
+  neo4j_data:
+  keydb_data:
+  minio_data:
+  matrix_data:
