@@ -1,21 +1,62 @@
-MIT License
+Server Side Public License
+Version 1, October 31, 2018
 
-Copyright (c) 2026 erikamjp150-bot
+Copyright (C) 2026 SeaScope Technologies Inc.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license is based on the GNU Affero General Public License, version 3, with the additional terms in Section 7 below.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+TERMS AND CONDITIONS
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+0. Definitions.
+
+"This License" refers to Server Side Public License, version 1.
+
+"The Program" refers to any copyrightable work licensed under this License.
+
+"Source Code" means the preferred form of the work for making modifications to it.
+
+"Object Code" means any non-source form of a work.
+
+"Service" means any service, application, or functionality that is offered to users over a network, including but not limited to a web service, a cloud service, or a software-as-a-service offering.
+
+"Company" means any entity that is organized under the laws of any jurisdiction for the purpose of conducting business.
+
+"Licensor" means the copyright holder who grants this license.
+
+1. Source Code License.
+
+The Program is licensed under the GNU Affero General Public License, version 3, as published by the Free Software Foundation. You may use, modify, and distribute the Program in accordance with the terms of that license.
+
+2. Additional Terms.
+
+In addition to the obligations under the GNU Affero General Public License, if you make the Program or any modified version of it available as a Service, you must make the Source Code of the Program and any modifications you have made to it available to the users of that Service under the terms of this License.
+
+For purposes of this Section 2, "make the Program available as a Service" includes, but is not limited to, any of the following:
+
+- Hosting the Program on a server that is accessible over a network.
+- Offering the Program as a service to third parties.
+- Using the Program as part of a service that is offered to third parties.
+
+3. Scope of Source Code Availability.
+
+When you make the Program available as a Service, you must make the Source Code available to the users of that Service. This includes the Source Code of the Program as well as any modifications you have made to it. You must also make the Source Code available to any third party who requests it.
+
+4. Term and Termination.
+
+This License is effective until terminated. Your rights under this License will terminate automatically without notice from the Licensor if you fail to comply with any term of this License. Upon termination, you must cease all use of the Program and destroy all copies of the Program in your possession.
+
+5. Disclaimer of Warranty.
+
+THE PROGRAM IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE PROGRAM.
+
+6. Governing Law.
+
+This License shall be governed by the laws of the jurisdiction in which the Licensor is located.
+
+7. Additional Terms for the Server Side Public License.
+
+You may not make the Program available as a Service unless you also make the Source Code available under the terms of this License. This requirement applies to any Service that uses the Program, whether the Program is used directly or indirectly.
+
+---
+
+END OF TERMS AND CONDITIONS
