@@ -1,62 +1,56 @@
-Server Side Public License
-Version 1, October 31, 2018
+SeaScope Civic Infrastructure License (SCIL-Core) v1.0
 
-Copyright (C) 2026 SeaScope Technologies Inc.
+Copyright (c) 2026 SeaScope Technologies Inc.
 
-This license is based on the GNU Affero General Public License, version 3, with the additional terms in Section 7 below.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use the Software **only for the following Permitted Purposes**, subject to the following conditions:
 
-TERMS AND CONDITIONS
+### 1. Permitted Users
+The Software may only be used by:
+- Municipal governments or their authorized agencies;
+- Cooperatives (as defined by the [ICA Statement on the Cooperative Identity](https://www.ica.coop/en/cooperatives/identity));
+- Non-profit organizations with a **public benefit mission**; or
+- Other entities **explicitly approved in writing** by SeaScope Technologies Inc.
 
-0. Definitions.
+### 2. Permitted Use Cases
+The Software may only be used for:
+- **Civic infrastructure** (e.g., public mobility, affordable housing, municipal services);
+- **Non-extractive economic models** (e.g., cooperatives, public-private partnerships with equitable profit-sharing); or
+- **Research or education** with **no commercial intent**.
 
-"This License" refers to Server Side Public License, version 1.
+### 3. Prohibited Activities
+The following uses are **explicitly prohibited**:
+- **For-Profit Exploitation:** Use by **non-cooperative for-profit entities** (e.g., Uber, Airbnb, or their subsidiaries) **without written approval** from SeaScope.
+- **Data Extraction:** Use of the Software to **collect, monetize, or export municipal data** for private gain.
+- **Monopoly Behavior:** Use of the Software to **undermine local regulations** (e.g., STR caps, labor laws) or **create market dominance**.
+- **Closed-Source Derivatives:** Modification of the Software to **remove compliance or governance features** (e.g., disabling STR cap enforcement).
 
-"The Program" refers to any copyrightable work licensed under this License.
+### 4. Data Governance Requirements
+All deployments of the Software **must**:
+- Host data on **municipal servers or Gaia-X-certified infrastructure**;
+- Comply with **GDPR, the EU Data Act, and the EU Data Governance Act**;
+- **Not share data** with third parties without **explicit municipal consent**;
+- Provide **real-time audit access** to the relevant municipality.
 
-"Source Code" means the preferred form of the work for making modifications to it.
+### 5. Cooperative Governance Mandate
+If the Software is used for **commercial purposes**, the deploying entity **must**:
+- Adopt a **cooperative ownership structure** (1 member = 1 vote);
+- **Reinvest or equitably distribute** at least **50% of profits** among stakeholders;
+- **Publish annual transparency reports** on usage, revenue, and governance.
 
-"Object Code" means any non-source form of a work.
+### 6. Source Code Availability
+Any **modified version** of the Software used in production **must**:
+- Be **publicly available** under this same license (SCIL-Core);
+- Include **all compliance and governance features** intact;
+- **Not remove or obfuscate** any data governance or audit mechanisms.
 
-"Service" means any service, application, or functionality that is offered to users over a network, including but not limited to a web service, a cloud service, or a software-as-a-service offering.
+### 7. Termination for Non-Compliance
+SeaScope Technologies Inc. **reserves the right to revoke** this license for any entity found to be:
+- Violating **Permitted Use Cases** or **Prohibited Activities**;
+- **Exploiting the Software** for extractive or monopoly-like purposes;
+- **Failing to comply** with data governance requirements.
 
-"Company" means any entity that is organized under the laws of any jurisdiction for the purpose of conducting business.
+### 8. Liability & Warranty
+The Software is provided **"AS IS"**, without warranty of any kind. SeaScope Technologies Inc. **shall not be liable** for any damages arising from the use of the Software, **except in cases of willful misconduct**.
 
-"Licensor" means the copyright holder who grants this license.
-
-1. Source Code License.
-
-The Program is licensed under the GNU Affero General Public License, version 3, as published by the Free Software Foundation. You may use, modify, and distribute the Program in accordance with the terms of that license.
-
-2. Additional Terms.
-
-In addition to the obligations under the GNU Affero General Public License, if you make the Program or any modified version of it available as a Service, you must make the Source Code of the Program and any modifications you have made to it available to the users of that Service under the terms of this License.
-
-For purposes of this Section 2, "make the Program available as a Service" includes, but is not limited to, any of the following:
-
-- Hosting the Program on a server that is accessible over a network.
-- Offering the Program as a service to third parties.
-- Using the Program as part of a service that is offered to third parties.
-
-3. Scope of Source Code Availability.
-
-When you make the Program available as a Service, you must make the Source Code available to the users of that Service. This includes the Source Code of the Program as well as any modifications you have made to it. You must also make the Source Code available to any third party who requests it.
-
-4. Term and Termination.
-
-This License is effective until terminated. Your rights under this License will terminate automatically without notice from the Licensor if you fail to comply with any term of this License. Upon termination, you must cease all use of the Program and destroy all copies of the Program in your possession.
-
-5. Disclaimer of Warranty.
-
-THE PROGRAM IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE PROGRAM.
-
-6. Governing Law.
-
-This License shall be governed by the laws of the jurisdiction in which the Licensor is located.
-
-7. Additional Terms for the Server Side Public License.
-
-You may not make the Program available as a Service unless you also make the Source Code available under the terms of this License. This requirement applies to any Service that uses the Program, whether the Program is used directly or indirectly.
-
----
-
-END OF TERMS AND CONDITIONS
+### 9. Jurisdiction
+This license **shall be governed by and construed in accordance with the laws of the European Union** and the **member state where the deploying municipality is located**.
